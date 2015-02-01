@@ -1,0 +1,10 @@
+﻿<Window x:Class="ClappingHands.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="525" Loaded="Window_Loaded"  Closed="Window_Closed">
+    <Grid Height="770" VerticalAlignment="Top">
+        <Image Height="400" HorizontalAlignment="Left" Margin="64,67,0,0" Name="image" Stretch="Fill" VerticalAlignment="Top" Width="400" RenderTransformOrigin="0.504,0.505" />
+        <Canvas Height="400" HorizontalAlignment="Left" Margin="12,12,0,0" Name="canvas" VerticalAlignment="Top" Width="400">
+        </Canvas>
+    </Grid>
+</Window>
